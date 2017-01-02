@@ -1,21 +1,21 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+.slimmenu html, .slimmenu body, .slimmenu div, .slimmenu span, .slimmenu applet, .slimmenu object, .slimmenu iframe,
+.slimmenu h1, .slimmenu h2, .slimmenu h3, .slimmenu h4, .slimmenu h5, .slimmenu h6, .slimmenu p, .slimmenu blockquote, .slimmenu pre,
+.slimmenu a, .slimmenu abbr, .slimmenu acronym, .slimmenu address, .slimmenu big, .slimmenu cite, .slimmenu code,
+.slimmenu del, .slimmenu dfn, .slimmenu em, .slimmenu img, .slimmenu ins, .slimmenu kbd, .slimmenu q, .slimmenu s, .slimmenu samp,
+.slimmenu small, .slimmenu strike, .slimmenu strong, .slimmenu sub, .slimmenu sup, .slimmenu tt, .slimmenu var,
+.slimmenu b, .slimmenu u, .slimmenu i, .slimmenu center,
+.slimmenu dl, .slimmenu dt, .slimmenu dd, .slimmenu ol, .slimmenu ul, .slimmenu li,
+.slimmenu fieldset, .slimmenu form, .slimmenu label, .slimmenu legend,
+.slimmenu table, .slimmenu caption, .slimmenu tbody, .slimmenu tfoot, .slimmenu thead, .slimmenu tr, .slimmenu th, .slimmenu td,
+.slimmenu article, .slimmenu aside, .slimmenu canvas, .slimmenu details, .slimmenu embed,
+.slimmenu figure, .slimmenu figcaption, .slimmenu footer, .slimmenu header, .slimmenu hgroup,
+.slimmenu menu, .slimmenu nav, .slimmenu output, .slimmenu ruby, .slimmenu section, .slimmenu summary,
+.slimmenu time, .slimmenu mark, .slimmenu audio, .slimmenu video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,25 +24,25 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+.slimmenu article, .slimmenu aside, .slimmenu details, .slimmenu figcaption, .slimmenu figure,
+.slimmenu footer, .slimmenu header, .slimmenu hgroup, .slimmenu menu, .slimmenu nav, .slimmenu section {
 	display: block;
 }
-body {
+.slimmenu body {
 	line-height: 1;
 }
-ol, ul {
+ol, .slimmenu ul {
 	list-style: none;
 }
-blockquote, q {
+.slimmenu blockquote, .slimmenu q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+.slimmenu blockquote:before, .slimmenu blockquote:after,
+.slimmenu q:before, .slimmenu q:after {
 	content: '';
 	content: none;
 }
-table {
+.slimmenu table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
