@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.6</Version>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles>
+    <Directory>resources</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>gpxMenuRender.js</RuntimeRender>
+  <GxResources>gpxMenu.xpz</GxResources>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>false</ResizeSupported>
+  <ObjClass>gpxMenu</ObjClass>
+  <Description>gpxMenu</Description>
+  <Id>6abc4b4b-9134-44fb-b202-02b95e2cf289</Id>
+  <Name>gpxMenu</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>resources\reset.css</File>
+    <File>resources\slimmenu.min.css</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>gpxMenu</Name>
+  </Constructor>
+  <PropertiesDefinition>gpxMenuProperties.xml</PropertiesDefinition>
+  <DesignRender>gpxMenuRender.xsl</DesignRender>
+  <ToolboxIcon>gpxMenu.ico</ToolboxIcon>
+  <ControlType />
+  <Categories>
+    <Category>GProjex</Category>
+  </Categories>
+  <Events>
+    <Event>ItemClick</Event>
+  </Events>
+  <Methods>
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>Refresh()</Signature>
+      <Name>Refresh</Name>
+      <Namespace />
+      <FullName>Refresh</FullName>
+    </Method>
+  </Methods>
+  <Actions>
+    <Action>
+      <Order>0</Order>
+      <ActionProperties>
+        <Property>
+          <Key>
+            <string>Name</string>
+          </Key>
+          <Value>
+            <string>gpxMenuItems</string>
+          </Value>
+        </Property>
+        <Property>
+          <Key>
+            <string>ATTCUSTOMTYPE</string>
+          </Key>
+          <Value>
+            <string>gpxMenuItems</string>
+          </Value>
+        </Property>
+      </ActionProperties>
+      <Data />
+      <ActionType>VarDeclaration</ActionType>
+    </Action>
+    <Action>
+      <Order>1</Order>
+      <ActionProperties>
+        <Property>
+          <Key>
+            <string>Menu</string>
+          </Key>
+          <Value>
+            <string>&amp;gpxMenuItems</string>
+          </Value>
+        </Property>
+      </ActionProperties>
+      <Data />
+      <ActionType>SetPropertyToControl</ActionType>
+    </Action>
+    <Action>
+      <Order>2</Order>
+      <ActionProperties />
+      <Data>
+// // Populate gpxMenu
+//Event Start
+//	gpxMenuDemo(&amp;gpxMenuItems)
+//Endevent
+//
+// // Menu click event
+//Event gpxMenu1.ItemClick
+//	msg(gpxMenu1.Code)
+//EndEvent
+      </Data>
+      <ActionType>CodeSnippet</ActionType>
+    </Action>
+  </Actions>
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+</ControlDefinition>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="gpxMenu">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Menu</Id>
+          <Name>Menu</Name>
+          <Type>Custom</Type>
+          <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+          <Metadata>
+            <Value name="FlagSetValueMethod">SetMenu</Value>
+            <Value name="FlagGetValueMethod">GetMenu</Value>
+            <Value name="FlagDataTypeFilter">gpxMenuItems</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>CollapsedTitle</Id>
+          <Name>CollapsedTitle</Name>
+          <Type>Text</Type>
+          <Default>Main Menu</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>ResizeWidth</Id>
+          <Name>ResizeWidth</Name>
+          <Type>Text</Type>
+          <Default>800</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Code</Id>
+          <Name>Code</Name>
+          <Type>Text</Type>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>CollapsedBackcolor</Id>
+          <Name>CollapsedBackColor</Name>
+          <Type>Text</Type>
+          <Default>#999</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>MainBackColor</Id>
+          <Name>MainBackColor</Name>
+          <Type>Text</Type>
+          <Default>#aaa</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>SecondaryBackColor</Id>
+          <Name>SecondaryBackColor</Name>
+          <Type>Text</Type>
+          <Default>#bbb</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>FontColor</Id>
+          <Name>FontColor</Name>
+          <Type>Text</Type>
+          <Default>black</Default>
+          <Metadata />
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>
